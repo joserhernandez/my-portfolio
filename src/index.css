@@ -1,5 +1,4 @@
 
-
 #root {
   width: 100%;
   max-width: 100%;
@@ -13,7 +12,7 @@
   /* font-size: 35px; */
 }
 
-body {
+/* body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -21,7 +20,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 .font-primary{
   font-family: 'Poppins', sans-serif;
@@ -33,20 +32,56 @@ body {
 .font-secondary {
   font-family: 'Source Sans 3', sans-serif;
 }
-/* h1 {
-  
-}
-.code-text {
- 
-} */
 
 .card-overlay {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 16%, rgba(0, 0, 0, 0.38) 78.03%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.40) 10%, rgba(0, 0, 0, 0.8) 90%);
 }
 
 .navbar-toggler {
   border: none;
   outline: none;
+}
+
+#subtitle {
+  background: linear-gradient(90deg, #E19864 0%, #E75F8B 8%, #AB35EF 15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.offcanvas-header .btn-close {
+  outline: none;
+  box-shadow: none;
+}
+
+.menu-bg {
+  background: linear-gradient(254deg, #040119 14.1%, #050332 100%);
+  color: white;
+}
+
+.nav-link {
+  transition: all 0.3s; /* Transición en el color de fondo durante 0.3 segundos */
+}
+
+.nav-link:hover {
+  background: linear-gradient(90deg, #E19864 20%, #E75F8B 50%, #AB35EF 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5.1rem;
+}
+.nav-link:hover::before {
+  content: "<";
+}
+.nav-link:hover::after {
+  content: ">";
 }
 
 

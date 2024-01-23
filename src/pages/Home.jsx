@@ -25,7 +25,7 @@ const Home = () => {
                                 <h1 className='font-primary' style={{fontSize: '5rem', whiteSpace: 'nowrap'}}>José R. <br/> Hernández</h1>
                             </div>
                             <div className="p-2">
-                                <p className='font-secondary fs-4' style={{ color: '#F8E559', textTransform: 'uppercase', fontWeight: '600'}}>Frontend Developer</p>
+                                <p id='subtitle' className='font-secondary fs-4' style={{ textTransform: 'uppercase', fontWeight: '600'}}>Frontend Developer</p>
                             </div>
                             {/* <div className="mt-3 p-2">
                                 <p className='fs-5 font-secondary'>"Excellence is not a destination, it is a continuous journey of improvement."</p>
