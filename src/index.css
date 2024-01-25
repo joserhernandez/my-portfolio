@@ -42,8 +42,9 @@
   outline: none;
 }
 
-#subtitle {
-  background: linear-gradient(90deg, #E19864 0%, #E75F8B 8%, #AB35EF 15%);
+.multicolor {
+  display: inline-block;
+  background: linear-gradient(90deg, #E19864 20%, #E75F8B 50%, #AB35EF 80%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -61,13 +62,13 @@
   box-shadow: none;
 }
 
-.menu-bg {
+.menu-bg, .bg-color {
   background: linear-gradient(254deg, #040119 14.1%, #050332 100%);
   color: white;
 }
 
 .nav-link {
-  transition: all 0.3s; /* Transición en el color de fondo durante 0.3 segundos */
+  transition: all 0.3s;
 }
 
 .nav-link:hover {
@@ -81,9 +82,21 @@
   content: "<";
 }
 .nav-link:hover::after {
-  content: ">";
+  content: "/>";
 }
 
+#contact a {
+  opacity: 50%;
+  transition: all 0.3s;
+}
+#contact a:hover {
+  opacity: 100%;
+}
+
+.card {
+  width: 7rem;
+  height: auto;
+}
 
 /* @media (prefers-color-scheme: light) {
   #root {
