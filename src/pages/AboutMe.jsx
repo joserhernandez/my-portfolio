@@ -1,8 +1,6 @@
-import NavBar from "../components/Navbar"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
 import Cards from "../components/Card";
 import { useState } from 'react'
 
